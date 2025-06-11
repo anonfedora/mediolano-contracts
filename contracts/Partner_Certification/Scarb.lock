@@ -2,7 +2,7 @@
 version = 1
 
 [[package]]
-name = "ip_marketplace_public_profile"
+name = "partner_certification"
 version = "0.1.0"
 dependencies = [
  "snforge_std",
@@ -10,15 +10,15 @@ dependencies = [
 
 [[package]]
 name = "snforge_scarb_plugin"
-version = "0.37.0"
+version = "0.37.1"
 source = "registry+https://scarbs.xyz/"
-checksum = "sha256:9dbb114f853decc27b2d6d53e2ddd207217ce63c2d24a47c5c48d5f475b0b9a5"
+checksum = "sha256:1a40de731b70d1283255d302b4ac471195ee3449c4a5881b3491284329bc2fb3"
 
 [[package]]
 name = "snforge_std"
-version = "0.37.0"
+version = "0.37.1"
 source = "registry+https://scarbs.xyz/"
-checksum = "sha256:f5702c4a6d54e3563b4aa78c834de6ddcf18ef8ca8fd35dc1bceb7ece58e9571"
+checksum = "sha256:129f2678462f489c6f7f3997625c518304a9a568921dd06d883fa5bcf4bdac14"
 dependencies = [
  "snforge_scarb_plugin",
 ]
